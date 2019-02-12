@@ -1,6 +1,6 @@
 {
     "path": "/afs/hephy.at/data/higgs01/v10/", 
-    "outpath": "/afs/hephy.at/data/mspanring01/",
+    "outpath": "/afs/hephy.at/data/higgs02/datacardsJanik/",
     "variables":{
         "mt": [
             "pt_2",
@@ -219,7 +219,25 @@
             "select": "-VETO- && -MT- && -TRIG-", 
             "name": "NOMINAL_ntuple_ZH125", 
             "event_weight": 1.0
-        },          
+        },   
+        "ttH125_full": {
+            "target":"none",
+            "select": "-VETO- && -MT- && -TRIG-", 
+            "name": "NOMINAL_ntuple_ttH125", 
+            "event_weight": 1.0
+        }, 
+        "qqHWW_full": {
+            "target":"none",
+            "select": "-VETO- && -MT- && -TRIG-", 
+            "name": "NOMINAL_ntuple_qqHWW", 
+            "event_weight": 1.0
+        }, 
+        "ggHWW_full": {
+            "target":"none",
+            "select": "-VETO- && -MT- && -TRIG-", 
+            "name": "NOMINAL_ntuple_ggHWW", 
+            "event_weight": 1.0
+        },        
         "data": {
             "target":"none",
             "select": "-OS- && -ISO- && -VETO- && -MT- && -TRIG-",

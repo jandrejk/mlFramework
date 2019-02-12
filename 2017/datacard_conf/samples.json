@@ -234,6 +234,27 @@
 			},
 			"shape_from_tree":{}
 		},	
+		"ttH125":{
+			"nominal":"{channel}-NOMINAL_ntuple_ttH125.root",
+			"type":"mc",
+			"shape_from_file":{},
+			"channel_shapes":{},
+			"shape_from_tree":{}
+		},	
+		"qqHWW":{
+			"nominal":"{channel}-NOMINAL_ntuple_qqHWW.root",
+			"type":"mc",
+			"shape_from_file":{},
+			"channel_shapes":{},
+			"shape_from_tree":{}
+		},
+		"ggHWW":{
+			"nominal":"{channel}-NOMINAL_ntuple_ggHWW.root",
+			"type":"mc",
+			"shape_from_file":{},
+			"channel_shapes":{},
+			"shape_from_tree":{}
+		},
 		"data_obs":{
 			"nominal":"{channel}-NOMINAL_ntuple_Data.root",
 			"type":"data",

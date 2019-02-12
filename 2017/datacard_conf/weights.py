@@ -53,7 +53,10 @@ config = {
             "ggH125": lumi * weight * semilep * tauidsft_2 * ggh_nnlo,
             "qqH125": lumi * weight * semilep * tauidsft_2 * prefire,
             "WH125":  lumi * weight * semilep * tauidsft_2,
-            "ZH125":  lumi * weight * semilep * tauidsft_2 
+            "ZH125":  lumi * weight * semilep * tauidsft_2,
+            "ttH125": lumi * weight * semilep * tauidsft_2,
+            "qqHWW":  lumi * weight * semilep * tauidsft_2,
+            "ggHWW":  lumi * weight * semilep * tauidsft_2
         },
         "et":{
             # "Z":      lumi * kit_dy_stitching * weight * zvtx_electron * semilep * tauidsft_2 * zptweight,
@@ -64,8 +67,11 @@ config = {
             "EMB":    weight,
             "ggH125": lumi * weight * zvtx_electron * semilep * tauidsft_2 + ggh_nnlo,
             "qqH125": lumi * weight * zvtx_electron * semilep * tauidsft_2 * prefire,
-            "WH125":  lumi * weight * zvtx_electron *semilep * tauidsft_2,
-            "ZH125":  lumi * weight * zvtx_electron * semilep * tauidsft_2 
+            "WH125":  lumi * weight * zvtx_electron * semilep * tauidsft_2,
+            "ZH125":  lumi * weight * zvtx_electron * semilep * tauidsft_2,
+            "ttH125": lumi * weight * zvtx_electron * semilep * tauidsft_2,
+            "qqHWW":  lumi * weight * zvtx_electron * semilep * tauidsft_2,
+            "ggHWW":  lumi * weight * zvtx_electron * semilep * tauidsft_2
         },
         "tt":{
             "Z":      lumi  * weight * had * tauidsft * zptweight,
@@ -76,7 +82,10 @@ config = {
             "ggH125": lumi * weight * had * tauidsft + ggh_nnlo,
             "qqH125": lumi * weight * had * tauidsft * prefire,
             "WH125":  lumi * weight * had * tauidsft,
-            "ZH125":  lumi * weight * had * tauidsft
+            "ZH125":  lumi * weight * had * tauidsft,
+            "ttH125": lumi * weight * had * tauidsft,
+            "qqHWW":  lumi * weight * had * tauidsft,
+            "ggHWW":  lumi * weight * had * tauidsft
         }
     },
     "reweighting":{
