@@ -1,0 +1,39 @@
+{
+	"needed":["gen_match*","htxs*"],
+	"Z":{
+		"ZTT":"(-GENTAU-)",
+		"ZL":"((-GENTAU- | -GENJET-) < 0.5)",
+		"ZJ":"(-GENJET-)"
+	},
+	"TT":{
+		"TTT":"(-GENTAU-)",
+		"TTL":"((-GENTAU- | -GENJET-) < 0.5)",
+		"TTJ":"(-GENJET-)"
+	},
+	"VV":{
+		"VVT":"(-GENTAU-)",
+		"VVL":"((-GENTAU- | -GENJET-) < 0.5)",
+		"VVJ":"(-GENJET-)"
+	},
+	"ggH125":{
+		"ggH_VBFTOPO_JET3VETO125": "(htxs_stage1cat==101)",
+		"ggH_VBFTOPO_JET3125":     "(htxs_stage1cat==102)",		
+		"ggH_0J125":               "(htxs_stage1cat==103)",
+		"ggH_1J_PTH_0_60125":      "(htxs_stage1cat==104)",
+		"ggH_1J_PTH_60_120125":    "(htxs_stage1cat==105)",
+		"ggH_1J_PTH_120_200125":   "(htxs_stage1cat==106)",
+		"ggH_1J_PTH_GT200125":     "(htxs_stage1cat==107)",
+		"ggH_GE2J_PTH_0_60125":    "(htxs_stage1cat==108)",
+		"ggH_GE2J_PTH_60_120125":  "(htxs_stage1cat==109)",
+		"ggH_GE2J_PTH_120_200125": "(htxs_stage1cat==110)",
+		"ggH_GE2J_PTH_GT200125":   "(htxs_stage1cat==111)"
+
+	},
+	"qqH125":{
+		"qqH_VBFTOPO_JET3VETO125": "(htxs_stage1cat==201)",
+		"qqH_VBFTOPO_JET3125":     "(htxs_stage1cat==202)",
+		"qqH_VH2JET125":     	   "(htxs_stage1cat==203)",
+		"qqH_REST125":     	   	   "(htxs_stage1cat==204)",
+		"qqH_PTJET1_GT200125": 	   "(htxs_stage1cat==205)"
+	}
+}

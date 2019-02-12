@@ -1,0 +1,249 @@
+{
+	"path_to_files":"/afs/hephy.at/data/mspanring01/predictions_2017/",
+	"samples":{
+		"Z":{
+			"nominal":"{channel}-NOMINAL_ntuple_DY.root",
+			"type":"mc",
+			"shape_from_file":{
+				"_CMS_scale_t_1prong_Run2017":  		    "TES1p0p0",
+				"_CMS_scale_t_1prong1pizero_Run2017":      	"TES1p1p0",
+				"_CMS_scale_t_3prong_Run2017":  		    "TES3p0p0",
+				"_CMS_scale_j_eta0to5_Run2017" : 			"CMS_scale_j_eta0to5_13TeV",
+				"_CMS_scale_j_eta0to3_Run2017" : 			"CMS_scale_j_eta0to3_13TeV",
+				"_CMS_scale_j_eta3to5_Run2017" : 			"CMS_scale_j_eta3to5_13TeV",
+				"_CMS_scale_j_RelativeBal_Run2017" : 		"CMS_scale_j_RelativeBal_13TeV",
+				"_CMS_scale_j_RelativeSample_Run2017" : 	"CMS_scale_j_RelativeSample_13TeV",
+				"_CMS_scale_j_Run2017" : 					"Total",
+				"_CMS_htt_eff_b_Run2017":					"Btag",
+				"_CMS_htt_mistag_b_Run2017":				"Mistag",
+				"_CMS_htt_boson_reso_met":					"CMS_htt_boson_reso_met_13TeV",
+				"_CMS_htt_boson_scale_met":					"CMS_htt_boson_scale_met_13TeV"
+
+			},
+			"channel_shapes":
+			{
+				"mt":{
+					"_CMS_ZLShape_mt_1prong_Run2017":        "MES1p0p0",
+					"_CMS_ZLShape_mt_1prong1pizero_Run2017": "MES1p1p0"
+				},
+				"et":{
+					"_CMS_ZLShape_et_1prong_Run2017":        "EES1p0p0",
+					"_CMS_ZLShape_et_1prong1pizero_Run2017": "EES1p1p0",
+					"_CMS_scale_e_Run2017":					 "EES"
+				},
+				"tt":{}
+			},
+			"shape_from_tree":{}
+		},
+		"EMB":{
+			"nominal":"{channel}-NOMINAL_ntuple_EMB.root",
+			"type":"mc",
+			"shape_from_file":{
+				"_CMS_scale_t_1prong_Run2017":  		    "TES1p0p0",
+				"_CMS_scale_t_1prong1pizero_Run2017":      	"TES1p1p0",
+				"_CMS_scale_t_3prong_Run2017":  		    "TES3p0p0"	
+			},
+			"channel_shapes":
+			{	"mt":{},
+				"et":{
+					"_CMS_scale_e_Run2017":					 "EES"
+				},
+				"tt":{}
+			},
+			"shape_from_tree":{}
+		},	
+		"W":{
+			"nominal":"{channel}-NOMINAL_ntuple_W.root",
+			"type":"mc",
+			"shape_from_file":{	
+				"_CMS_scale_j_eta0to5_Run2017" : 			"CMS_scale_j_eta0to5_13TeV",
+				"_CMS_scale_j_eta0to3_Run2017" : 			"CMS_scale_j_eta0to3_13TeV",
+				"_CMS_scale_j_eta3to5_Run2017" : 			"CMS_scale_j_eta3to5_13TeV",
+				"_CMS_scale_j_RelativeBal_Run2017" : 		"CMS_scale_j_RelativeBal_13TeV",
+				"_CMS_scale_j_RelativeSample_Run2017" : 	"CMS_scale_j_RelativeSample_13TeV",
+				"_CMS_scale_j_Run2017" : 					"Total",
+				"_CMS_htt_eff_b_Run2017":					"Btag",
+				"_CMS_htt_mistag_b_Run2017":				"Mistag",
+				"_CMS_htt_boson_reso_met":					"CMS_htt_boson_reso_met_13TeV",
+				"_CMS_htt_boson_scale_met":					"CMS_htt_boson_scale_met_13TeV"				
+			},
+			"channel_shapes":
+			{	"mt":{},
+				"et":{
+					"_CMS_scale_e_Run2017":					 "EES"
+				},
+				"tt":{}
+			},
+			"shape_from_tree":{}
+		},
+		"TT":{
+			"nominal":"{channel}-NOMINAL_ntuple_TT.root",
+			"type":"mc",
+			"shape_from_file":{
+				"_CMS_scale_t_1prong_Run2017":  		    "TES1p0p0",
+				"_CMS_scale_t_1prong1pizero_Run2017":      	"TES1p1p0",
+				"_CMS_scale_t_3prong_Run2017":  		    "TES3p0p0",
+				"_CMS_scale_j_eta0to5_Run2017" : 			"CMS_scale_j_eta0to5_13TeV",
+				"_CMS_scale_j_eta0to3_Run2017" : 			"CMS_scale_j_eta0to3_13TeV",
+				"_CMS_scale_j_eta3to5_Run2017" : 			"CMS_scale_j_eta3to5_13TeV",
+				"_CMS_scale_j_RelativeBal_Run2017" : 		"CMS_scale_j_RelativeBal_13TeV",
+				"_CMS_scale_j_RelativeSample_Run2017" : 	"CMS_scale_j_RelativeSample_13TeV",
+				"_CMS_scale_j_Run2017" : 					"Total",
+				"_CMS_htt_eff_b_Run2017":					"Btag",
+				"_CMS_htt_mistag_b_Run2017":				"Mistag"				
+			},
+			"channel_shapes":
+			{	"mt":{},
+				"et":{
+					"_CMS_scale_e_Run2017":					 "EES"
+				},
+				"tt":{}
+			},
+			"shape_from_tree":{}
+		},
+		"VV":{
+			"nominal":"{channel}-NOMINAL_ntuple_VV.root",
+			"type":"mc",
+			"shape_from_file":{
+				"_CMS_scale_t_1prong_Run2017":  		    "TES1p0p0",
+				"_CMS_scale_t_1prong1pizero_Run2017":      	"TES1p1p0",
+				"_CMS_scale_t_3prong_Run2017":  		    "TES3p0p0",
+				"_CMS_scale_j_eta0to5_Run2017" : 			"CMS_scale_j_eta0to5_13TeV",
+				"_CMS_scale_j_eta0to3_Run2017" : 			"CMS_scale_j_eta0to3_13TeV",
+				"_CMS_scale_j_eta3to5_Run2017" : 			"CMS_scale_j_eta3to5_13TeV",
+				"_CMS_scale_j_RelativeBal_Run2017" : 		"CMS_scale_j_RelativeBal_13TeV",
+				"_CMS_scale_j_RelativeSample_Run2017" : 	"CMS_scale_j_RelativeSample_13TeV",
+				"_CMS_scale_j_Run2017" : 					"Total",
+				"_CMS_htt_eff_b_Run2017":					"Btag",
+				"_CMS_htt_mistag_b_Run2017":				"Mistag"
+			},
+			"channel_shapes":
+			{	"mt":{},
+				"et":{
+					"_CMS_scale_e_Run2017":					 "EES"
+				},
+				"tt":{}
+			},
+			"shape_from_tree":{}
+		},
+		"qqH125":{
+			"nominal":"{channel}-NOMINAL_ntuple_qqH125.root",
+			"type":"mc",
+			"shape_from_file":{
+				"_CMS_scale_t_1prong_Run2017":  		    "TES1p0p0",
+				"_CMS_scale_t_1prong1pizero_Run2017":      	"TES1p1p0",
+				"_CMS_scale_t_3prong_Run2017":  		    "TES3p0p0",
+				"_CMS_scale_j_eta0to5_Run2017" : 			"CMS_scale_j_eta0to5_13TeV",
+				"_CMS_scale_j_eta0to3_Run2017" : 			"CMS_scale_j_eta0to3_13TeV",
+				"_CMS_scale_j_eta3to5_Run2017" : 			"CMS_scale_j_eta3to5_13TeV",
+				"_CMS_scale_j_RelativeBal_Run2017" : 		"CMS_scale_j_RelativeBal_13TeV",
+				"_CMS_scale_j_RelativeSample_Run2017" : 	"CMS_scale_j_RelativeSample_13TeV",
+				"_CMS_scale_j_Run2017" : 					"Total",
+				"_CMS_htt_eff_b_Run2017":					"Btag",
+				"_CMS_htt_mistag_b_Run2017":				"Mistag",
+				"_CMS_htt_boson_reso_met":					"CMS_htt_boson_reso_met_13TeV",
+				"_CMS_htt_boson_scale_met":					"CMS_htt_boson_scale_met_13TeV"
+			},
+			"channel_shapes":
+			{	"mt":{},
+				"et":{
+					"_CMS_scale_e_Run2017":					 "EES"
+				},
+				"tt":{}
+			},
+			"shape_from_tree":{}
+		},
+		"ggH125":{
+			"nominal":"{channel}-NOMINAL_ntuple_ggH125.root",
+			"type":"mc",
+			"shape_from_file":{
+				"_CMS_scale_t_1prong_Run2017":  		    "TES1p0p0",
+				"_CMS_scale_t_1prong1pizero_Run2017":      	"TES1p1p0",
+				"_CMS_scale_t_3prong_Run2017":  		    "TES3p0p0",
+				"_CMS_scale_j_eta0to5_Run2017" : 			"CMS_scale_j_eta0to5_13TeV",
+				"_CMS_scale_j_eta0to3_Run2017" : 			"CMS_scale_j_eta0to3_13TeV",
+				"_CMS_scale_j_eta3to5_Run2017" : 			"CMS_scale_j_eta3to5_13TeV",
+				"_CMS_scale_j_RelativeBal_Run2017" : 		"CMS_scale_j_RelativeBal_13TeV",
+				"_CMS_scale_j_RelativeSample_Run2017" : 	"CMS_scale_j_RelativeSample_13TeV",
+				"_CMS_scale_j_Run2017" : 					"Total",
+				"_CMS_htt_eff_b_Run2017":					"Btag",
+				"_CMS_htt_mistag_b_Run2017":				"Mistag",
+				"_CMS_htt_boson_reso_met":					"CMS_htt_boson_reso_met_13TeV",
+				"_CMS_htt_boson_scale_met":					"CMS_htt_boson_scale_met_13TeV"				
+			},
+			"channel_shapes":
+			{	"mt":{},
+				"et":{
+					"_CMS_scale_e_Run2017":					 "EES"
+				},
+				"tt":{}
+			},
+			"shape_from_tree":{}
+		},
+		"WH125":{
+			"nominal":"{channel}-NOMINAL_ntuple_WH125.root",
+			"type":"mc",
+			"shape_from_file":{
+				"_CMS_scale_t_1prong_Run2017":  		    "TES1p0p0",
+				"_CMS_scale_t_1prong1pizero_Run2017":      	"TES1p1p0",
+				"_CMS_scale_t_3prong_Run2017":  		    "TES3p0p0",
+				"_CMS_scale_j_eta0to5_Run2017" : 			"CMS_scale_j_eta0to5_13TeV",
+				"_CMS_scale_j_eta0to3_Run2017" : 			"CMS_scale_j_eta0to3_13TeV",
+				"_CMS_scale_j_eta3to5_Run2017" : 			"CMS_scale_j_eta3to5_13TeV",
+				"_CMS_scale_j_RelativeBal_Run2017" : 		"CMS_scale_j_RelativeBal_13TeV",
+				"_CMS_scale_j_RelativeSample_Run2017" : 	"CMS_scale_j_RelativeSample_13TeV",
+				"_CMS_scale_j_Run2017" : 					"Total",
+				"_CMS_htt_eff_b_Run2017":					"Btag",
+				"_CMS_htt_mistag_b_Run2017":				"Mistag",
+				"_CMS_htt_boson_reso_met":					"CMS_htt_boson_reso_met_13TeV",
+				"_CMS_htt_boson_scale_met":					"CMS_htt_boson_scale_met_13TeV"				
+			},
+			"channel_shapes":
+			{	"mt":{},
+				"et":{
+					"_CMS_scale_e_Run2017":					 "EES"
+				},
+				"tt":{}
+			},
+			"shape_from_tree":{}
+		},
+		"ZH125":{
+			"nominal":"{channel}-NOMINAL_ntuple_ZH125.root",
+			"type":"mc",
+			"shape_from_file":{
+				"_CMS_scale_t_1prong_Run2017":  		    "TES1p0p0",
+				"_CMS_scale_t_1prong1pizero_Run2017":      	"TES1p1p0",
+				"_CMS_scale_t_3prong_Run2017":  		    "TES3p0p0",
+				"_CMS_scale_j_eta0to5_Run2017" : 			"CMS_scale_j_eta0to5_13TeV",
+				"_CMS_scale_j_eta0to3_Run2017" : 			"CMS_scale_j_eta0to3_13TeV",
+				"_CMS_scale_j_eta3to5_Run2017" : 			"CMS_scale_j_eta3to5_13TeV",
+				"_CMS_scale_j_RelativeBal_Run2017" : 		"CMS_scale_j_RelativeBal_13TeV",
+				"_CMS_scale_j_RelativeSample_Run2017" : 	"CMS_scale_j_RelativeSample_13TeV",
+				"_CMS_scale_j_Run2017" : 					"Total",
+				"_CMS_htt_eff_b_Run2017":					"Btag",
+				"_CMS_htt_mistag_b_Run2017":				"Mistag",
+				"_CMS_htt_boson_reso_met":					"CMS_htt_boson_reso_met_13TeV",
+				"_CMS_htt_boson_scale_met":					"CMS_htt_boson_scale_met_13TeV"				
+			},
+			"channel_shapes":
+			{	"mt":{},
+				"et":{
+					"_CMS_scale_e_Run2017":					 "EES"
+				},
+				"tt":{}
+			},
+			"shape_from_tree":{}
+		},	
+		"data_obs":{
+			"nominal":"{channel}-NOMINAL_ntuple_Data.root",
+			"type":"data",
+			"shape_from_file":{},
+			"channel_shapes":{},
+			"shape_from_tree":{}
+		}
+	}
+}
+
+
+
+

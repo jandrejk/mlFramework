@@ -1,0 +1,2 @@
+{"models": ["2016/models/tt_fold0_keras_model.h5", "2016/models/tt_fold1_keras_model.h5"], "variables": ["pt_1","pt_2","jpt_1","jpt_2","bpt_1","bpt_2","nbtag","m_sv","mt_1","mt_2","pt_vis","pt_tt","mjj","jdeta","m_vis","dijetpt","met"], "params": {"epochs": 10000, "early_stopping": 50, "name": "smhtt_dropout_tanh", "batch_size": 100}, "target_names": {"0": "ggh", "1": "qqh", "2": "ztt", "3": "noniso", "4": "misc", "-1": "none"}}
+
